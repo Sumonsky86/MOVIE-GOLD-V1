@@ -39,7 +39,7 @@ const Hero = ({movies}) => {
                                                     </div> 
                                                 </Link>
                                                 <div className='movie-review-button-container'>
-                                                    <Button variant='info' onClick={()=>goReviews(movie.imdbId)}>Reviews</Button>
+                                                    <Button variant='info' onClick={()=>goReviews(movie.imdbId)}>Reseñas</Button>
                                                 </div>
                                             </div>
                                         </div>

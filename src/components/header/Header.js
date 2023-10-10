@@ -18,11 +18,11 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0" style={{"maxHeight":'100px', "color":'white'}} navbarScroll>
-                        <NavLink className="nav-link" style={{"color":'white'}} to="/">Home</NavLink>
-                        <NavLink className="nav-link" style={{"color":'white'}}  to="/watchList">Watch List</NavLink>
+                        <NavLink className="nav-link" style={{"color":'white'}} to="/">Inicio</NavLink>
+                        <NavLink className="nav-link" style={{"color":'white'}}  to="/watchList">Peliculas</NavLink>
                     </Nav>
-                    <Button variant="outline-info" className="me-2">Login</Button>
-                    <Button variant="outline-info">Register</Button>
+                    <Button variant="outline-info" className="me-2">Entrar</Button>
+                    <Button variant="outline-info">Registro</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
